@@ -3,12 +3,11 @@
 
 name: Maven Run Test
 
-on:
-  pull_request
+on: pull_request
 
 jobs:
   build:
-
+    name: Maven Test
     runs-on: ubuntu-latest
 
     steps:
