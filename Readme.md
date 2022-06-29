@@ -35,11 +35,10 @@ Here is the List of pipeline file example which has some basic experimentation.
 * Copy the app's Bot Token from the **OAuth & Permissions** page and [add it as a secret in your repo settings][repo-secret] named `SLACK_BOT_TOKEN`.
 * Invite the bot user: how to invite a Bot to the channel. Way that was proposed by Caleb and Keet was not clear for me or not working. From my side, 'invite' work after
 
-open channel
-in Details tab, choose a 'More'clause
-in dropdown menu, chouse an 'add app'
-in pop-up look for you app (bot)
-Also i was use Bot User OAuth Access Token, because i need this functionality in private channel (additionaly, you should add for bot groups:history scope)
+> open channel
+> in Details tab, choose a 'More'clause
+> in dropdown menu, chouse an 'add app'in pop-up look for you app (bot)
+> Also i was use Bot User OAuth Access Token, because i need this functionality in private channel (additionaly, you should add for bot groups:history scope)
 
 Add this Action as a [step][job-step] to your project's GitHub Action Workflow file:
 
