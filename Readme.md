@@ -11,6 +11,7 @@ Here is the List of pipeline file example which has some basic experimentation.
 
 - ✨Semantic pipeline ✨
 - Slack Notfication
+- Pull Request - Check Task
 
 ## Master pipeline
 
